@@ -4,7 +4,7 @@ header('Content-type: application/javascript');
 
 require('JSMin.php');
 
-$dest_file = 'all.min.js';
+$dest_file = 'cached.min.js';
 $dest_file_mtime = file_exists($dest_file) ? filemtime($dest_file) : 0;
 $dest_file_content = '';
 
