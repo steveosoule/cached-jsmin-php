@@ -1,4 +1,4 @@
-# basic-jsmin-php
+# cached-jsmin-php
 
 PHP file that will concatenate & minify JavaScript files depending on their file-modification dates.
 
@@ -6,11 +6,11 @@ The `all.js.php` file will compare the modified time of the source files, compar
 
 ## Usage
 
-1. Update the file paths in `all-js.php`
-2. Upload `all-js.php` & `JSmin.php` to the server.
+1. Update the file paths in `cached-js.php`
+2. Upload `cached-js.php` & `JSmin.php` to the server.
 3. Add the script tag to your HTML page.
 ```
-<script src="path/to/js/all-js.php"></script>
+<script src="path/to/js/cached-js.php"></script>
 ```
 ---
 
