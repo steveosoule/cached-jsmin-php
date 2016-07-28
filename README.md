@@ -6,8 +6,8 @@ The `all.js.php` file will compare the modified time of the source files, compar
 
 ## Usage
 
-1. Update the file paths in `cached-js.php`
-2. Upload `cached-js.php` & `JSmin.php` to the server.
+1. Update the file paths in `js/cached-js.php`
+2. Upload `js/cached-js.php` & `js/JSmin.php` to the server.
 3. Add the script tag to your HTML page.
 ```
 <script src="path/to/js/cached-js.php"></script>
